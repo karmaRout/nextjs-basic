@@ -1,9 +1,10 @@
 import React from "react";
+import AddToCart from "./AddToCart";
 
 const productCard = () =>{
  return(
     <div>
-        <button onClick={() => console.log("Click")}> Add + </button>
+        <AddToCart />
     </div>
  )
 }
